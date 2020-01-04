@@ -6,7 +6,6 @@
     <artifactId>jmeter_ci</artifactId>
     <version>1.11</version>
     <name>jmeter_ci</name>
-    <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -35,20 +34,7 @@
         <jmeter.result.html.dir1>${project.build.directory}\jmeter\html1</jmeter.result.html.dir1>
         <ReportName>TestReport</ReportName>
     </properties>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>Codehaus repository</id>
-            <url>http://repository.codehaus.org/</url>
-            <releases>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
-        </pluginRepository>
-    </pluginRepositories>
+
     <build>
         <finalName>jmeter_ci</finalName>
         <plugins>
