@@ -43,7 +43,7 @@
                         <goal>jmeter</goal>
                     </goals>
                     <configuration>
-                        <resultsFileFormat>jtl</resultsFileFormat>  <!--jmx脚本文件生成相应jtl文件-->
+<!--                        <resultsFileFormat>jtl</resultsFileFormat>  &lt;!&ndash;jmx脚本文件生成相应jtl文件&ndash;&gt;-->
                     </configuration>
                 </execution>
                 <!-- 设置ignoreResultFailures，必须把 jmeter-check-results加上-->
