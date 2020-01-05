@@ -17,7 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="bluemoon" options="-extdirs src\test\jmeter\lib" />
-      <module name="jmeter_ci" options="-extdirs src\test\jmeter\lib" />
+      <module name="jmeter_ci" options="" />
     </option>
   </component>
 </project>
