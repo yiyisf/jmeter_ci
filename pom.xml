@@ -64,8 +64,8 @@
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                     <encoding>UTF-8</encoding>
                     <compilerArguments>
                         <extdirs>src\test\jmeter\lib</extdirs>
@@ -89,7 +89,7 @@
                     <transformationSets>
                         <transformationSet>
                             <dir>${jmeter.result.jtl.dir}</dir>
-                            <stylesheet>src\test\resources\jmeter-results-detail-report_21.xsl</stylesheet>
+                            <stylesheet>${project.basedir}\src\test\resources\jmeter-results-detail-report_21.xsl</stylesheet>
                             <outputDir>${jmeter.result.html.dir}</outputDir>
                             <fileMappers>
                                 <fileMapper
@@ -100,7 +100,7 @@
                         </transformationSet>
                         <transformationSet>
                             <dir>${jmeter.result.jtl.dir}</dir>
-                            <stylesheet>src\test\resources\jmeter.results.shanhe.me.xsl</stylesheet>
+                            <stylesheet>${project.basedir}\src\test\resources\jmeter-results-report_21.xsl</stylesheet>
                             <outputDir>${jmeter.result.html.dir1}</outputDir>
                             <fileMappers>
                                 <fileMapper
