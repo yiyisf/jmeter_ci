@@ -76,13 +76,13 @@
         <hashTree/>
         <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="用户定义的变量" enabled="true">
           <collectionProp name="Arguments.arguments">
-            <elementProp name="account1" elementType="Argument">
-              <stringProp name="Argument.name">account1</stringProp>
-              <stringProp name="Argument.value">lyb0108</stringProp>
+            <elementProp name="user_name" elementType="Argument">
+              <stringProp name="Argument.name">user_name</stringProp>
+              <stringProp name="Argument.value">lye0001</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
-            <elementProp name="password1" elementType="Argument">
-              <stringProp name="Argument.name">password1</stringProp>
+            <elementProp name="password" elementType="Argument">
+              <stringProp name="Argument.name">password</stringProp>
               <stringProp name="Argument.value">a123456</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
@@ -190,7 +190,7 @@
         prev.setResponseData(outBuffer.toString());</stringProp>
         </BeanShellPostProcessor>
         <hashTree/>
-        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="false">
           <stringProp name="filename">/usr/local/apache-jmeter-5.1.1/csv/2.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">user_name,password</stringProp>
@@ -432,7 +432,7 @@ vars.put(&quot;token64&quot;,token64);
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener" enabled="true">
+        <BackendListener guiclass="BackendListenerGui" testclass="BackendListener" testname="Backend Listener" enabled="false">
           <elementProp name="arguments" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="influxdbMetricsSender" elementType="Argument">
