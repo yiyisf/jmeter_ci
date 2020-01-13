@@ -423,7 +423,7 @@ vars.put(&quot;token64&quot;,token64);
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="continue_url" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1338431381">.baobaobooks.net</stringProp>
+              <stringProp name="1267153350">.baobaobooks.net111</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
